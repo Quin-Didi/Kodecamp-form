@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kodecamp form</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    <section id="page_body">
+   <div class="header">
+    <h1 class="title">freeCodeCamp Survey Form</h1>
+    <p class="header-paragraph">Thank you for taking the time to help us improve the platform</p>
+   </div>
+
+   <div id="form_container">
+<form action="">
+    <div class="input_box">
+        <label for="name-label">Name</label>
+            <br>
+            <input type="text" name="name" id="name-label" placeholder="Enter your name" required>
+        
+    </div>
+    <div class="input_box
+    ">
+        <label for="email-label">E-mail</label><br>
+        <input type="email" name="email" id="email-label" placeholder="Enter your Email" required>
+    </div>
+    <div class="input_box">
+        <label for="age-label">Age(optional)</label><br>
+        <input type="number" name="age" id="age-label" placeholder="Age">
+    </div>
+    <div class="input_box">
+        <label for="currentRole">
+            Which option best describes your current role?
+        </label>
+<br>
+
+    <select name="role" id="currentRole">
+        <option value="role" disabled selected option >Select current role</option>
+        <option value="role">Student</option>
+        <option value="role">Full Time Job</option>
+        <option value="role">Full Time Learner</option>
+        <option value="role">Prefer not to say</option>
+        <option value="role">Others</option>
+    </select>
+    </div>
+    <div class="input_box">
+        <label for="recommend_form">Would you recommend freeCodeCamp to a friend?</label>
+        <br>
+        <input type="radio" name="recommend" id="recommend_form">Definitely <br>
+        <input type="radio" name="recommend" id="recommend_form">Maybe <br>
+        <input type="radio" name="recommend" id="recommend_form">Not sure <br>
+    </div>
+    <div class="input_box">
+        <label for="currentFeature">
+            What is your favorite feature of freeCodeCamp?
+        </label>
+<br>
+
+    <select name="role" id="currentRole">
+        <option value="role"disabled selected option>Select an option</option>
+        <option value="role">Challenges</option>
+        <option value="role">Projects</option>
+        <option value="role">Community</option>
+        <option value="role">Open Source</option>
+      
+    </select>
+    </div>
+    <div class="input_box">
+        <label for="improvement">What would you like to see improved? (Check all that apply)</label><br>
+        <input type="checkbox" name="improvement" id="improvement">Front-end Projects <br>
+        <input type="checkbox" name="improvement" id="improvement">Back-end Projects <br>
+        <input type="checkbox" name="improvement" id="improvement">Data Visualizations <br>
+        <input type="checkbox" name="improvement" id="improvement">Challenges <br>
+        <input type="checkbox" name="improvement" id="improvement">Open Suource Community <br>
+        <input type="checkbox" name="improvement" id="improvement">Gitter Help rooms <br>
+        <input type="checkbox" name="improvement" id="improvement">Videos<br>
+        <input type="checkbox" name="improvement" id="improvement">City Meetups <br>
+        <input type="checkbox" name="improvement" id="improvement">Wiki <br>
+        <input type="checkbox" name="improvement" id="improvement">Forum <br>
+        <input type="checkbox" name="improvement" id="improvement">Additional Courses <br>
+    </div>
+    <div class="input_box">
+        <label for="comments">Any comments or suggestions?</label><br>
+        <textarea name="comments" id="comments" cols="30" rows="10" placeholder="Enter your comments here..."></textarea>
+    </div>
+    <div class="input_box">
+        <input type="submit" value="Submit">
+    </div>
+    
+</section>
+</body>
+</html>
